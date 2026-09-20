@@ -1,0 +1,5 @@
+import numpy as np
+arr=np.array([4,8,9,0,6,7])
+print(arr[3:])
+print(arr[:3])
+print(arr[1:5])
