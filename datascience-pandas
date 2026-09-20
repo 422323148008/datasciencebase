@@ -1,0 +1,12 @@
+import pandas as pd
+student=pd.DataFrame({"name":["meena","pk"],
+                     "mark":[86,98],
+                     "age":[23,34]})
+print(student)
+print(student["mark"])
+print(student.head())
+print(student.tail())
+print(student.describe())
+print(student.info())
+print(student["mark"]>90)
+print(studenr)
